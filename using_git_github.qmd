@@ -60,4 +60,4 @@ In the Environment panel under Git tab there is a sub-tab title History.It keeps
 
 ## GitHub repositories
 
-GitHub a website allowing to post code, aka 'repo'. Each project has a `repo`.
+GitHub a website allowing to post code, aka 'repo'. Each project has its own `repo`.
