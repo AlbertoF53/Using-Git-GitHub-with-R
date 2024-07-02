@@ -1,0 +1,63 @@
+---
+title: "Using Git & GitHub with R"
+author: "David Keyes"
+date: July 2, 2024
+format:
+  html:
+    code-link: true
+    code-fold: true
+    self-contained: true
+    embed-resources: true
+    toc: true
+    theme: Zephyr
+    number-sections: false
+execute: 
+  warning: false
+  message: false
+  echo: false
+editor_options: 
+  chunk_output_type: console
+---
+
+# Using Git and GitHub with R
+
+```{r libraries}
+#| echo: true
+
+library(tidyverse)
+library(usethis)
+
+```
+
+## Create a local Git Repository
+
+This lesson displays how to load and use the package `usethis` to create. And next type \`use_git() to create a git repository for an initial commit.
+
+`use_git()` gives several options to commit for using Git and GitHub with R.Rproj. Then it asks to activate the Git pane, which requires to restart.
+
+```{r git_repository}
+#|echo: true
+
+library(usethis)
+
+# use_git()
+
+```
+
+### Commits
+
+They are snapshots of the code. It keeps track of the history of the coding process.
+
+Commits have two parts.
+
+1.  Staging a file
+
+2.  Draft a `commit message` with keywords describing the content at the moment of the snapshot was created.
+
+## Commit history
+
+In the Environment panel under Git tab there is a sub-tab title History.It keeps records of the changes done to the Readme.md file.
+
+## GitHub repositories
+
+GitHub a website allowing to post code, aka 'repo'. Each project has a `repo`.
