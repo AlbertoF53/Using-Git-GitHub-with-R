@@ -1,0 +1,1 @@
+It documents changes associated with files corresponding to Using Git & Github workshop by Dr. David Keyes. 
