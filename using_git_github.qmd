@@ -59,8 +59,3 @@ Commits have two parts.
 In the Environment panel under Git tab there is a sub-tab title History.It keeps records of the changes done to the Readme.md file.
 
 ## GitHub repositories
-
-
-
-
-
